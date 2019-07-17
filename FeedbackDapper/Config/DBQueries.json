@@ -1,0 +1,14 @@
+[
+  {
+    "query_id": "1",
+    "query_name": "GetFeedback_Information",
+    "query_type": "StoreProcedure",
+    "query_value": "GetFeedbackDetails"
+  },
+  {
+    "query_id": "2",
+    "query_name": "Inserting_Feedback_Details",
+    "query_type": "Text",
+    "query_value": "Select * from tbl_feedback where commentId = '@comment' with(nolock)"
+  }
+]
